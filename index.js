@@ -72,3 +72,7 @@
 // let s=arr.shift();
 // let u=arr.unshift("hasan")
 // document.write(arr+"<br>")
+
+// let arr = ["abcdf","abcdfr","a","ab","abc","abcd","abcdfgt",];
+// let a=arr.sort()
+// document.write(a)

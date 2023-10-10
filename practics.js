@@ -68,19 +68,87 @@
 // //         console.log(k);
 //          document.write("*");
 //       }
-     
+
 //       document.write("<br>");
 //   }
 
 // Event Number
-let array =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// let array =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
-for (let i=1;i<=array.length;i++){
-    // document.write(i);
-   if(i%2!=0){
-    document.write(i);
-   }else{
-    document.write(" ")
-   }
-   document.write("<br>")
+// for (let i=1;i<=array.length;i++){
+//     // document.write(i);
+//    if(i%2!=0){
+//     document.write(i);
+//    }else{
+//     document.write(" ")
+//    }
+//    document.write("<br>")
+// }
+
+// for loop
+// let n=10;
+// for(let i=0;i<=n;i++){
+//  document.write("i")
+// }
+//while loop
+// let n=0;
+// let p=20;
+// while(n <=p){
+// // document.write(n);
+
+// n++;
+// if(n%2==0){
+//     document.write("event");
+// }else{
+//     document.write("odd");
+// }
+// document.write("<br>")
+// }
+
+// let names ={
+//     name:"Anik",
+//     Age:21,
+//     Color:"Black"
+// }
+// for(let x in names){
+//     document.write(`${x}:${names[x]}`)
+// }
+
+// document.write(new Date().setHours(2))
+
+let number = prompt("Enter Your Number : ")
+
+switch (number) {
+    case "1":
+        document.write("one");
+        break;
+    case "2":
+        document.write("two");
+        break;
+    case "3":
+        document.write("Three");
+        break;
+    case "4":
+        document.write("Four");
+        break;
+    case "5":
+        document.write("Five");
+        break;
+    case "6":
+        document.write("Six");
+        break;
+    case "7":
+        document.write("Seven");
+        break;
+    case "8":
+        document.write("Eight");
+        break;
+    case "9":
+        document.write("Nine");
+        break;
+    case "10":
+        document.write("Ten");
+        break;
+        default:
+           alert(" Please Type of Number 1 And 10")
 }
